@@ -3,7 +3,7 @@
 #
 ### <b>Lado do atacante:</b><br>
 Na configuração de uma reverse shell, o atacante está em modo servidor e aguarda a conexão do dispositivo comprometido, que atua como cliente. Quando o dispositivo comprometido se conecta ao servidor do atacante, o atacante pode controlar remotamente o sistema comprometido.
-Geralmente ferramentas como Netcat são utilizadas para que o atacante possa ficar em modo servidor aguardando uma conexão em seu IP e em determinada porta.<br>
+Geralmente ferramentas como [Netcat](https://gitbook.ganeshicmc.com/redes/ferramentas/netcat) são utilizadas para que o atacante possa ficar em modo servidor aguardando uma conexão em seu IP e em determinada porta.<br>
 ![f68b3aba-39af-41ea-a82e-ed9b8ef83286](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/71f1231d-198a-4552-99d6-14f38cbd31ad)
 
 
