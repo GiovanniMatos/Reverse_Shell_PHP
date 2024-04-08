@@ -11,7 +11,7 @@ Na imagem abaixo, a máquina atacante esta em modo servidor aguardando conexão 
 
 ### <b>Lado da vítima:</b><br>
 A vítima estará em modo cliente, onde ela fará a conexão no IP e porta do atacante, fazendo com que sua Shell seja enviada através de tal conexão e dando o controle de seu sistema ao atacante.
-Tal conexão pode ser feita através de execução de arquivos com o código malicioso, links ou ativação de um plugin do Wordpress, há diversas formas.
+Tal conexão pode ser feita por meio da execução de arquivos com o código malicioso, links ou ativação de um plugin do Wordpress, há diversas formas.
 
 ![626822d9beb1b531fd597ae2_Reverse Shell in action](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/0992005d-ff59-4a33-980e-399dc0350871)
 
