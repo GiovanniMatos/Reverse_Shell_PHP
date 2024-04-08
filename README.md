@@ -15,7 +15,7 @@ Tal conexão pode ser feita através de execução de arquivos com o código mal
 
 ![626822d9beb1b531fd597ae2_Reverse Shell in action](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/0992005d-ff59-4a33-980e-399dc0350871)
 
-### <b>Defesa:<b><br>
+![](https://img.shields.io/badge/PROTEÇÃO:-e41a43?style=for-the-badge&Color=white) <br>
 Para o desenvolvedor, no ".htaccess" não permitir que solicitações com palavras como "bash", "python", "sh" sejam processadas pelo servidor.<br>
 ex:<br>
 ```bash
