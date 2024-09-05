@@ -1,10 +1,9 @@
 # Reverse_Shell_PHP
 ![image-1](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/8e575604-ef37-4d9d-86ef-637cde8bcad2)
 #
-### <b>Lado do atacante:</b><br>
-Na configuração de uma reverse shell, o atacante está em modo servidor e aguarda a conexão do dispositivo comprometido, que atua como cliente. Quando o dispositivo comprometido se conecta ao servidor do atacante, o atacante pode controlar remotamente o sistema comprometido.
-Geralmente ferramentas como [Netcat](https://gitbook.ganeshicmc.com/redes/ferramentas/netcat) são utilizadas para que o atacante possa ficar em modo servidor aguardando uma conexão em seu IP e em determinada porta.<br>
-Na imagem abaixo, a máquina atacante esta em modo servidor aguardando conexão na porta 5000, entao o arquivo "reverse-shell.php" que será executado pelo cliente (vítima) deve especificar a mesma porta.
+### <b>Attacker side:</b><br>
+When configuring a reverse shell, the attacker is in server mode and waits for the connection from the compromised device, which acts as a client. When the compromised device connects to the attacker's server, the attacker can remotely control the compromised system. Generally tools like [Netcat](https://gitbook.ganeshicmc.com/redes/ferramentas/netcat) They are used so that the attacker can be in server mode waiting for a connection on their IP and on a certain port.<br>
+In the image below, the attacking machine is in server mode waiting for a connection on port 5000, so the "reverse-shell.php" file that will be executed by the client (victim) must specify the same port.
 
 ![f68b3aba-39af-41ea-a82e-ed9b8ef83286](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/71f1231d-198a-4552-99d6-14f38cbd31ad)
 
