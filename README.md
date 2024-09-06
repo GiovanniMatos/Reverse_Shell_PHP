@@ -24,12 +24,12 @@ ex:<br>
     RewriteRule .* - [F,L]
 </IfModule>
 ```
-Manter o sistema operacional e os softwares atualizados, pois atualizações frequentemente incluem correções de segurança.<br>
-Usar sistemas de detecção de intrusão (IDS) e sistemas de prevenção de intrusão (IPS) para monitorar e bloquear atividades maliciosas.<br>
-Usar criptografia para proteger a comunicação entre sistemas e serviços.<br>
-Usar firewalls para bloquear tráfego malicioso e restringir o acesso a portas e serviços não necessários.<br>
+Keep your operating system and software up to date, as updates often include security fixes.<br>
+Use intrusion detection systems (IDS) and intrusion prevention systems (IPS) to monitor and block malicious activity.<br>
+Use encryption to secure communication between systems.<br>
+Use firewall to block malicious traffic and restrict access to useless ports and services.<br>
 ex:<br>
 ```bash
 iptables -A INPUT -p tcp --dport 1234 -j DROP
 ```
-Esse comando impede que conexões na porta 1234 sejam estabelecidas no servidor.
+This command doens't allow port 1234 on the server to receive connections.
