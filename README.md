@@ -14,7 +14,7 @@ The connection can be through the execution of malicious codes, links, and has s
 
 ![626822d9beb1b531fd597ae2_Reverse Shell in action](https://github.com/GiovanniMatos/Reverse_Shell_PHP/assets/99231397/0992005d-ff59-4a33-980e-399dc0350871)
 
-![](https://img.shields.io/badge/PROTEÇÃO:-e41a43?style=for-the-badge&Color=white) <br>
+![](https://img.shields.io/badge/SECURITY:-e41a43?style=for-the-badge&Color=white) <br>
 For developers, in ".htaccess" doesn't allow requests with words like "bash", "python", "sh" to be processed by the server.<br>
 ex:<br>
 ```bash
